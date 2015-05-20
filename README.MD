@@ -10,7 +10,9 @@ A small library for controlling a pianobar installation using strings
 ## Usage
 
   var pianobar = require('radio');
+  
   var entry = pianobar.cmd_supported("play music");
+  
   pianobar.exe_cmd(entry);
 
 ## Tests
